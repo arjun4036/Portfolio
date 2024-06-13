@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Arjun M<span class="animate" style="--i:1;"></span></a>
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#project">Project</a>
+            <a href="#skills">Skills</a>
+            <a href="#extras">Extras</a>
+            <!-- <a href="#contact">Contact</a> -->
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <!-- Home section design  -->
+    <section class="home show-animate" id="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span>Arjun M</span><span class="animate" style="--i:2;"></span></h1>
+            <div class="text-animate">
+                <h3>Robotics Engineer</h3>
+                <span class="animate" style="--i:3;"></span>
+            </div>
+            <p>I’m a Robotics Engineer eager to revolutionize automation. With a passion for the latest technology and the ability to bring ideas to life, I infuse every project with innovation, precision, and creativity. Explore my digital space where robotics and imagination come together, making the future a reality today.<span class="animate" style="--i:4;"></span></p>
+            <div class="btn-box">
+                <a href="#" class="btn" onclick="openResume()">CV</a>
+                <a href="tel:+91 7736235108" class="btn">Call</a>
+                <span class="animate" style="--i:5;"></span>
+            </div>
+        </div>
+        <div class="home-sci">
+            <a href="tel:+91 7736235108"><i class='bx bxs-phone-call'></i></a>
+            <a href="https://www.linkedin.com/in/arjun-m123/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            <a href="https://github.com/arjun4036" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="mailto:arjunmohandas18@gmail.com"><i class='bx bxs-envelope'></i></a>
+            <span class="animate" style="--i:6;"></span>
+        </div>
+        <div class="home-imgHover"></div>
+        <span class="animate home-img" style="--i:7;"></span>
+    </section>
+
+    <!-- About section design -->
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="about-img">
+            <img src="about.jpg" alt="">
+            <span class="circle-spin"></span>
+            <span class="animate scroll" style="--i:2;"></span>
+        </div>
+        <div class="about-content">
+            <h3>Robotic Engineer!<span class="animate scroll" style="--i:3;"></span></h3>
+            <p>A forward-thinking Robotics Engineer driven by a commitment to turning visionary concepts into impactful solutions. My expertise lies in crafting intelligent systems that seamlessly blend creativity with cutting-edge engineering. With a track record of successfully constructing innovative prototypes and navigating complex challenges, I am dedicated to pushing technological boundaries. Eager to bring my passion and skills to a dynamic team, contributing to projects that define the forefront of robotics and automation. Let's connect and explore how my experience can add value to your organization.<span class="animate scroll" style="--i:4;"></span></p>
+            <div class="btn-box btns">
+                <a href="#education" class="btn">Explore More</a>
+                <span class="animate scroll" style="--i:5;"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Journey</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="education-row">
+            <div class="education-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+                <div class="education-box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2023</div>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019-2023</div>
+                            <h3>Bachelor's degree in Robotics and Automation Engineering - KTU</h3>
+                            <p>B.Tech degree Graduate in Robotics and Automation from Adi Shankara Institute of Engineering and Technology with CGPA of 8.62 and Completed Honours in Robotics and Automation.</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2015-2017</div>
+                            <h3>Higher Secondary Education - Kerala State</h3>
+                            <p>Completed Higher Secondary Education with distinction, achieving an aggregate of 90% from MNKMHSS Chittilamchery.</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2010-2015</div>
+                            <h3>Secondary Education - ICSE</h3>
+                            <p>Successfully completed Secondary Education at Technical High School, Chittur, Palakkad, achieving an impressive aggregate of 92%.</p>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project section -->
+    <section class="project" id="project">
+        <h2 class="heading">My <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2> 
+        <div class="project-row">
+            <div class="project-column">
+                <h3 class="title">Project<span class="animate scroll" style="--i:2;"></span></h3>
+                <div class="project-box">
+                    <div class="project-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022-2023</div>
+                            <h3>Medical Humanoid Robot</h3>
+                            <div class="btn-box"><a href="#" class="btn" onclick="openHex()">Folder</a></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022</div>
+                            <h3>Robot Vacuum Cleaner using SLAM and ROS</h3>
+                            <div class="btn-box"><a href="#" class="btn" onclick="openGest()">Folder</a></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2023</div>
+                            <h3>Collaborative Robot</h3>
+                            <div class="btn-box"><a href="#" class="btn" onclick="openAmf()">Folder</a></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2023</div>
+                            <h3>Industrial Gas Detection and Reduction System</h3>
+                            <div class="btn-box"><a href="#" class="btn" onclick="openAms()">Folder</a></div>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Professional Skills<span class="animate scroll" style="--i:2;"></span></h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>ROS Programming <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python Programming <span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>PLC Programming <span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>HTML Programming<span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Fusion 360<span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Matlab<span>50%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>System Integration<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>C Programming<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Mysql<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <span class="animate scroll" style="--i:3;"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3 class="title">Soft Skills<span class="animate scroll" style="--i:5;"></span></h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Continuous Learning<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Resilient<span>85%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Analytical Thinking<span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Natural Negotiator<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Problem Solver<span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Project Management<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Multi-tasking<span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <span class="animate scroll" style="--i:6;"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Extras section design -->
+    <section class="extras" id="extras">
+        <h2 class="heading">Add <span>Ons</span><span class="animate scroll" style="--i:1;"></span></h2>
+        <div class="extras-row">
+            <div class="extras-column">
+                <h3 class="title">Education<span class="animate scroll" style="--i:2;"></span></h3>
+                <div class="extras-box">
+                    <div class="extras-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019</div>
+                            <h3>KUKA Industrial Manipulator Programmer </h3>
+                            <p>Attended add-on course from NIT Trichy on Industrial Robots and studied KUKA KRL programming.</p>
+                        </div>
+                    </div>
+                    <div class="extras-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2019</div>
+                            <h3>Workshop on Arduino</h3>
+                            <p>Speaker for Several Arduino Hands-on Sessions conducted by IEEE Societies.</p>
+                        </div>
+                    </div>
+                    <div class="extras-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2020</div>
+                            <h3>IEEE RAS SBC ASIET Chairperson</h3>
+                            <p>Held the position of RAS Chairperson for IEEE SB ASIET for the year 2023-2024.</p>
+                        </div>
+                    </div>
+                    <div class="extras-content">
+                        <div class="content">
+                            <div class="year"><i class='bx bxs-calendar'></i>2022</div>
+                            <h3>Joint Secretary The Robotics Society ASIET Student Section</h3>
+                            <p>Held the position of Joint Secretary for TRS ASIET for the year 2023-2024.</p>
+                        </div>
+                    </div>
+                    <span class="animate scroll" style="--i:3;"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Arjun M | All Rights Reserved.</p>
+            <span class="animate scroll" style="--i:1;"></span>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class='bx bx-chevrons-up'></i></a>
+            <span class="animate scroll" style="--i:3;"></span>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
